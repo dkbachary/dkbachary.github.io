@@ -1,0 +1,131 @@
+---
+---
+
+/**
+ * Personal Page and Home Page Styles
+ * Theme-aware styling for the personal and home pages with smooth dark mode transitions
+ */
+
+/* Introduction sections with theme-aware background */
+.personal-intro,
+.home-intro {
+  padding: 2rem;
+  background: var(--card-bg, #f8f9fa);
+  border: 1px solid var(--main-border-color, #e9ecef);
+  border-radius: 12px;
+  margin: 2rem 0;
+  color: var(--text-color);
+}
+
+.personal-intro {
+  padding: 1.5rem;
+  border-radius: 10px;
+  margin: 1.5rem 0;
+}
+
+.home-intro h2,
+.personal-intro p:first-child {
+  color: var(--heading-color, #495057);
+}
+
+/* Cards with theme-aware backgrounds */
+.personal-card,
+.home-card {
+  padding: 1.5rem;
+  background: var(--card-header-bg, white);
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+  color: var(--text-muted-color, #6c757d);
+}
+
+.personal-card p,
+.home-card p {
+  color: var(--text-muted-color, #6c757d);
+}
+
+/* Card variants with colored left borders */
+.personal-card-blue,
+.home-card-blue {
+  border-left: 4px solid #007bff;
+}
+
+.personal-card-green,
+.home-card-green {
+  border-left: 4px solid #28a745;
+}
+
+.personal-card-orange,
+.home-card-orange {
+  border-left: 4px solid #fd7e14;
+}
+
+.personal-card-purple,
+.home-card-purple {
+  border-left: 4px solid #6f42c1;
+}
+
+/* Footer section with theme-aware styling */
+.personal-footer {
+  text-align: center;
+  padding: 1.5rem;
+  background: var(--card-bg, #f8f9fa);
+  border-radius: 10px;
+  margin: 1.5rem 0;
+  color: var(--text-muted-color, #6c757d);
+}
+
+/* Dark mode adjustments */
+html[data-mode='dark'] {
+  .personal-intro,
+  .home-intro {
+    background: var(--card-header-bg, #1e1e1e);
+    border-color: var(--main-border-color, #2d2d2d);
+  }
+
+  .home-intro h2,
+  .personal-intro p:first-child {
+    color: var(--heading-color, #e8e8e8);
+  }
+
+  .personal-card,
+  .home-card {
+    background: var(--card-header-bg, #1e1e1e);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  }
+
+  .personal-card p,
+  .home-card p {
+    color: var(--text-muted-color, #a0a0a0);
+  }
+
+  .personal-footer {
+    background: var(--card-header-bg, #1e1e1e);
+    color: var(--text-muted-color, #a0a0a0);
+  }
+}
+
+/* Hover effects for cards */
+.personal-card:hover,
+.home-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+html[data-mode='dark'] .personal-card:hover,
+html[data-mode='dark'] .home-card:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+}
+
+/* Reduced motion support */
+@media (prefers-reduced-motion: reduce) {
+  .personal-card,
+  .home-card {
+    transition: none !important;
+  }
+
+  .personal-card:hover,
+  .home-card:hover {
+    transform: none !important;
+  }
+}
