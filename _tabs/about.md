@@ -14,18 +14,18 @@ I dissect cutting-edge technology through the lens of a systems engineer who und
 ## What I Do
 
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem; margin: 1.5rem 0;">
-  <div style="padding: 1.5rem; background: #f8f9fa; border-radius: 10px; border-left: 4px solid #007bff; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">
+  <div class="personal-card personal-card-blue">
     <h3 style="color: #007bff; margin-bottom: 1rem; font-size: 1.2rem;">Hardware & AI Systems Engineer</h3>
-    <ul style="color: #6c757d; margin: 0; padding-left: 1.2rem; line-height: 1.8;">
+    <ul style="margin: 0; padding-left: 1.2rem; line-height: 1.8;">
       <li>Computer architecture and multicore performance optimization</li>
       <li>AI-hardware co-design and edge inference systems</li>
       <li>System-level debugging, RTL analysis, and memory architectures</li>
       <li>Performance analysis at the hardware-software boundary</li>
     </ul>
   </div>
-  <div style="padding: 1.5rem; background: #f8f9fa; border-radius: 10px; border-left: 4px solid #28a745; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">
+  <div class="personal-card personal-card-green">
     <h3 style="color: #28a745; margin-bottom: 1rem; font-size: 1.2rem;">Tech Analyst & Writer</h3>
-    <ul style="color: #6c757d; margin: 0; padding-left: 1.2rem; line-height: 1.8;">
+    <ul style="margin: 0; padding-left: 1.2rem; line-height: 1.8;">
       <li>AI chip wars: Apple Silicon, Qualcomm Snapdragon, Intel, AMD, NVIDIA</li>
       <li>Edge AI and on-device inference challenges</li>
       <li>Cloud infrastructure, system reliability, and deployment strategies</li>
@@ -36,9 +36,9 @@ I dissect cutting-edge technology through the lens of a systems engineer who und
 
 ## My Perspective
 
-<div style="padding: 1.5rem; background: #f8f9fa; border-radius: 10px; margin: 1.5rem 0;">
-  <p style="color: #495057; margin-bottom: 1rem; font-size: 1.05rem; line-height: 1.8;">I bring a <strong>critical yet optimistic lens</strong> to tech analysis:</p>
-  <ul style="color: #6c757d; padding-left: 1.2rem; line-height: 1.8; margin: 0;">
+<div class="personal-intro">
+  <p style="margin-bottom: 1rem; font-size: 1.05rem; line-height: 1.8;">I bring a <strong>critical yet optimistic lens</strong> to tech analysis:</p>
+  <ul style="padding-left: 1.2rem; line-height: 1.8; margin: 0;">
     <li><strong>Deep Dives:</strong> From NVIDIA's NVLink Fusion to Intel's Lunar Lake architecture</li>
     <li><strong>Real-World Testing:</strong> Edge AI inference on M-series, Snapdragon X Elite, and AMD Phoenix</li>
     <li><strong>Honest Takes:</strong> Calling out both brilliance and disappointment (yes, Apple Intelligence saga)</li>
@@ -49,17 +49,17 @@ I dissect cutting-edge technology through the lens of a systems engineer who und
 ## What You'll Find Here
 
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.5rem; margin: 1.5rem 0;">
-  <div style="padding: 1.5rem; background: white; border-radius: 10px; border-left: 4px solid #007bff; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">
+  <div class="personal-card personal-card-blue">
     <h3 style="color: #007bff; margin-bottom: 0.75rem; font-size: 1.1rem;">Technical Deep Dives</h3>
-    <p style="color: #6c757d; margin: 0; line-height: 1.6;">Computer architecture breakdowns, AI inference optimization, memory system analysis, and processor comparisons.</p>
+    <p style="margin: 0; line-height: 1.6;">Computer architecture breakdowns, AI inference optimization, memory system analysis, and processor comparisons.</p>
   </div>
-  <div style="padding: 1.5rem; background: white; border-radius: 10px; border-left: 4px solid #28a745; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">
+  <div class="personal-card personal-card-green">
     <h3 style="color: #28a745; margin-bottom: 0.75rem; font-size: 1.1rem;">Industry Analysis</h3>
-    <p style="color: #6c757d; margin: 0; line-height: 1.6;">Critical takes on AI trends, cloud outages, chip competition, and the future of computing.</p>
+    <p style="margin: 0; line-height: 1.6;">Critical takes on AI trends, cloud outages, chip competition, and the future of computing.</p>
   </div>
-  <div style="padding: 1.5rem; background: white; border-radius: 10px; border-left: 4px solid #fd7e14; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">
+  <div class="personal-card personal-card-orange">
     <h3 style="color: #fd7e14; margin-bottom: 0.75rem; font-size: 1.1rem;">Practical Insights</h3>
-    <p style="color: #6c757d; margin: 0; line-height: 1.6;">Real-world performance data, deployment strategies, and lessons from the bleeding edge of tech.</p>
+    <p style="margin: 0; line-height: 1.6;">Real-world performance data, deployment strategies, and lessons from the bleeding edge of tech.</p>
   </div>
 </div>
 
@@ -81,6 +81,6 @@ I dissect cutting-edge technology through the lens of a systems engineer who und
 
 ---
 
-<div style="text-align: center; padding: 1.5rem; background: #f8f9fa; border-radius: 10px; margin: 1.5rem 0;">
-  <p style="color: #6c757d; font-style: italic; margin: 0; line-height: 1.8;"><strong>The Journey:</strong> From RTL debugging to AI inference, from chip architecture to cloud infrastructure - this is my engineering log. Silicon, systems, and stories worth sharing.</p>
+<div class="personal-footer">
+  <p style="font-style: italic; margin: 0; line-height: 1.8;"><strong>The Journey:</strong> From RTL debugging to AI inference, from chip architecture to cloud infrastructure - this is my engineering log. Silicon, systems, and stories worth sharing.</p>
 </div>

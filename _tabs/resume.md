@@ -18,9 +18,9 @@ title: Resume
 
 ## Professional Summary
 
-<div style="padding: 1.5rem; background: #f8f9fa; border-radius: 10px; border-left: 4px solid #007bff; margin: 1.5rem 0;">
-  <p style="color: #495057; margin-bottom: 1rem; line-height: 1.8;"><strong>System Engineer</strong> with an MS in Computer Science & Engineering with diverse experiences across academic research, high‑performance computing in the defense sector, and the semiconductor industry. Expert in performance analysis, microarchitecture debugging, and system optimization.</p>
-  <p style="color: #6c757d; margin: 0; line-height: 1.8;">Adept at benchmarking and validating complex hardware systems, with a strong track record in resolving RTL and simulator‑level miscorrelations. Proficient in C/C++, Python, deep learning, and computer architecture, with published work on hardware side‑channel attacks and DNN security.</p>
+<div class="personal-card personal-card-blue">
+  <p style="margin-bottom: 1rem; line-height: 1.8;"><strong>System Engineer</strong> with an MS in Computer Science & Engineering with diverse experiences across academic research, high‑performance computing in the defense sector, and the semiconductor industry. Expert in performance analysis, microarchitecture debugging, and system optimization.</p>
+  <p style="margin: 0; line-height: 1.8;">Adept at benchmarking and validating complex hardware systems, with a strong track record in resolving RTL and simulator‑level miscorrelations. Proficient in C/C++, Python, deep learning, and computer architecture, with published work on hardware side‑channel attacks and DNN security.</p>
 </div>
 
 ---
@@ -93,32 +93,32 @@ title: Resume
 ## Technical Skills
 
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.5rem; margin: 2rem 0;">
-  <div style="background: #f8f9fa; padding: 1.5rem; border-radius: 10px; border-left: 4px solid #007bff;">
+  <div class="personal-card personal-card-blue">
     <h4 style="margin-bottom: 0.75rem; color: #007bff; font-size: 1.05rem;">Programming Languages</h4>
     <p>C/C++, Python, Assembly, SystemVerilog, VHDL, Verilog</p>
   </div>
   
-  <div style="background: #f8f9fa; padding: 1.5rem; border-radius: 10px; border-left: 4px solid #28a745;">
+  <div class="personal-card personal-card-green">
     <h4 style="margin-bottom: 0.75rem; color: #28a745; font-size: 1.05rem;">Machine Learning & AI</h4>
     <p>DNNs, PyTorch, Scikit-Learn, LLMs, Generative AI, Deep Learning</p>
   </div>
   
-  <div style="background: #f8f9fa; padding: 1.5rem; border-radius: 10px; border-left: 4px solid #ffc107;">
+  <div class="personal-card" style="border-left: 4px solid #ffc107;">
     <h4 style="margin-bottom: 0.75rem; color: #ffc107; font-size: 1.05rem;">Tools & Development</h4>
     <p>Linux, bash, git, perf, Verdi, LaTeX, Jenkins, Docker, Debugging</p>
   </div>
   
-  <div style="background: #f8f9fa; padding: 1.5rem; border-radius: 10px; border-left: 4px solid #dc3545;">
+  <div class="personal-card" style="border-left: 4px solid #dc3545;">
     <h4 style="margin-bottom: 0.75rem; color: #dc3545; font-size: 1.05rem;">Hardware & Architecture</h4>
     <p>x86, ARM, VLIW, DSP, RISC-V, MIPS, Performance Verification, SoC Design</p>
   </div>
   
-  <div style="background: #f8f9fa; padding: 1.5rem; border-radius: 10px; border-left: 4px solid #6f42c1;">
+  <div class="personal-card personal-card-purple">
     <h4 style="margin-bottom: 0.75rem; color: #6f42c1; font-size: 1.05rem;">Performance & Optimization</h4>
     <p>Performance Analysis, Benchmarking, RTL Debugging, HPC, Power Modeling</p>
   </div>
   
-  <div style="background: #f8f9fa; padding: 1.5rem; border-radius: 10px; border-left: 4px solid #20c997;">
+  <div class="personal-card" style="border-left: 4px solid #20c997;">
     <h4 style="margin-bottom: 0.75rem; color: #20c997; font-size: 1.05rem;">Systems & Platforms</h4>
     <p>OpenStack, IBM Power, AMD Ryzen, Qualcomm Hexagon, Cloud Computing</p>
   </div>
@@ -128,8 +128,8 @@ title: Resume
 
 ## Key Achievements
 
-<div style="padding: 1.5rem; background: #f8f9fa; border-radius: 10px; margin: 1.5rem 0;">
-  <ul style="color: #6c757d; padding-left: 1.2rem; line-height: 2; margin: 0;">
+<div class="personal-intro">
+  <ul style="padding-left: 1.2rem; line-height: 2; margin: 0;">
     <li><strong>Performance Optimization:</strong> Independently drove performance verification for 3+ DSP cores at Qualcomm, delivering results ahead of schedule</li>
     <li><strong>Research Excellence:</strong> Conducted research on DNN hardware attacks achieving >90% accuracy in determining DNN layer distributions</li>
     <li><strong>Academic Merit:</strong> Scored top 3% in Graduate Aptitude Test in Engineering (GATE) with 535/1000 ranking</li>
@@ -173,9 +173,9 @@ title: Resume
 
 ---
 
-<div style="text-align: center; padding: 2rem; background: #f8f9fa; border-radius: 10px; margin: 2rem 0;">
-  <h3 style="margin-bottom: 1rem; color: #495057; font-size: 1.4rem;">Let's Connect</h3>
-  <p style="margin-bottom: 1.5rem; color: #6c757d; line-height: 1.6;">I'm always open to discussing new opportunities and interesting projects.</p>
+<div class="personal-footer">
+  <h3 style="margin-bottom: 1rem; font-size: 1.4rem;">Let's Connect</h3>
+  <p style="margin-bottom: 1.5rem; line-height: 1.6;">I'm always open to discussing new opportunities and interesting projects.</p>
   <div style="display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap;">
     <a href="mailto:bhargav.achary13@gmail.com" style="background: #EA4335; color: white; padding: 0.6rem 1.2rem; border-radius: 8px; text-decoration: none; font-weight: 500;">Email</a>
     <a href="https://linkedin.com/in/bhargavachary" target="_blank" style="background: #0077b5; color: white; padding: 0.6rem 1.2rem; border-radius: 8px; text-decoration: none; font-weight: 500;">LinkedIn</a>
