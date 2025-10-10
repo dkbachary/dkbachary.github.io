@@ -14,28 +14,28 @@ Growing up in Odisha, I learned that life's richest lessons often come from unex
 
 ## What You'll Find
 
-<div style="padding: 1.5rem; background: #f8f9fa; border-radius: 10px; margin: 1.5rem 0;">
-  <p style="color: #495057; margin-bottom: 1.5rem; line-height: 1.8;">On my personal blog, I write about the parts of life that don't fit neatly into technical specs:</p>
+<div class="personal-intro">
+  <p style="margin-bottom: 1.5rem; line-height: 1.8;">On my personal blog, I write about the parts of life that don't fit neatly into technical specs:</p>
 
   <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.5rem;">
-    <div style="padding: 1.5rem; background: white; border-radius: 10px; border-left: 4px solid #007bff; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">
+    <div class="personal-card personal-card-blue">
       <h3 style="color: #007bff; margin-bottom: 0.75rem; font-size: 1.1rem;">Photography & Visual Stories</h3>
-      <p style="color: #6c757d; margin: 0; line-height: 1.6;">Capturing moments that remind us to pause—landscapes, culture, and everyday beauty.</p>
+      <p style="margin: 0; line-height: 1.6;">Capturing moments that remind us to pause—landscapes, culture, and everyday beauty.</p>
     </div>
 
-    <div style="padding: 1.5rem; background: white; border-radius: 10px; border-left: 4px solid #28a745; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">
+    <div class="personal-card personal-card-green">
       <h3 style="color: #28a745; margin-bottom: 0.75rem; font-size: 1.1rem;">Reflections & Essays</h3>
-      <p style="color: #6c757d; margin: 0; line-height: 1.6;">Thoughts on society, mental health, education, and the stories we inherit from those who came before us.</p>
+      <p style="margin: 0; line-height: 1.6;">Thoughts on society, mental health, education, and the stories we inherit from those who came before us.</p>
     </div>
 
-    <div style="padding: 1.5rem; background: white; border-radius: 10px; border-left: 4px solid #fd7e14; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">
+    <div class="personal-card personal-card-orange">
       <h3 style="color: #fd7e14; margin-bottom: 0.75rem; font-size: 1.1rem;">Cultural Narratives</h3>
-      <p style="color: #6c757d; margin: 0; line-height: 1.6;">Exploring Indian traditions, regional diversity, and the threads that connect us across languages and geographies.</p>
+      <p style="margin: 0; line-height: 1.6;">Exploring Indian traditions, regional diversity, and the threads that connect us across languages and geographies.</p>
     </div>
 
-    <div style="padding: 1.5rem; background: white; border-radius: 10px; border-left: 4px solid #6f42c1; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">
+    <div class="personal-card personal-card-purple">
       <h3 style="color: #6f42c1; margin-bottom: 0.75rem; font-size: 1.1rem;">Life Observations</h3>
-      <p style="color: #6c757d; margin: 0; line-height: 1.6;">From navigating Bengaluru's traffic to grappling with loss, the human side of this engineering journey.</p>
+      <p style="margin: 0; line-height: 1.6;">From navigating Bengaluru's traffic to grappling with loss, the human side of this engineering journey.</p>
     </div>
   </div>
 </div>
@@ -55,6 +55,6 @@ Growing up in Odisha, I learned that life's richest lessons often come from unex
 
 ---
 
-<div style="text-align: center; padding: 1.5rem; background: #f8f9fa; border-radius: 10px; margin: 1.5rem 0;">
-  <p style="color: #6c757d; font-style: italic; margin: 0; line-height: 1.8;">Between debugging sessions and architecture reviews, I try to remember that technology exists to serve humanity—not the other way around.</p>
+<div class="personal-footer">
+  <p style="font-style: italic; margin: 0; line-height: 1.8;">Between debugging sessions and architecture reviews, I try to remember that technology exists to serve humanity—not the other way around.</p>
 </div>
