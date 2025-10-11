@@ -44,13 +44,13 @@ Growing up in Odisha, I learned that life's richest lessons often come from unex
 
 <div style="padding: 1.5rem; background: linear-gradient(135deg, #84fab0 0%, #8fd3f4 100%); border-radius: 10px; margin: 1.5rem 0;">
   <p style="color: #2c3e50; font-size: 1.05rem; line-height: 1.8; margin-bottom: 1rem;">This space exists because not everything worth sharing fits into a technical deep dive. Sometimes the most important conversations happen when we step away from the keyboard.</p>
-  <p style="color: #34495e; font-size: 1rem; line-height: 1.8; margin: 0;">If you're curious about the person behind the technical analysis, or simply want to explore life beyond silicon and systems, visit <strong><a href="https://bhargavachary.in" style="color: #2c3e50; text-decoration: underline;">BhargavAchary.in</a></strong>.</p>
+  <p style="color: #34495e; font-size: 1rem; line-height: 1.8; margin: 0;">If you're curious about the person behind the technical analysis, or simply want to explore life beyond silicon and systems, visit <strong><a href="https://bhargavachary.in" target="_blank" rel="noopener noreferrer" style="color: #2c3e50; text-decoration: underline;">BhargavAchary.in</a></strong>.</p>
 </div>
 
 ---
 
 <div style="text-align: center; margin: 3rem 0;">
-  <a href="https://bhargavachary.in" class="btn-personal-space" style="display: inline-block; padding: 1rem 2.5rem; font-size: 1.1rem; font-weight: 600; color: #fff; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius: 25px; text-decoration: none; box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4); transition: all 0.3s ease; border: none;">Visit BhargavAchary.in</a>
+  <a href="https://bhargavachary.in" target="_blank" rel="noopener noreferrer" class="btn-personal-space" style="display: inline-block; padding: 1rem 2.5rem; font-size: 1.1rem; font-weight: 600; color: #fff; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius: 25px; text-decoration: none; box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4); transition: all 0.3s ease; border: none;">Visit BhargavAchary.in</a>
 </div>
 
 ---
