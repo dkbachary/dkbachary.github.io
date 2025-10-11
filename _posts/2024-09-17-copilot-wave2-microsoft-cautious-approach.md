@@ -7,7 +7,7 @@ tags: [microsoft, ai-models, productivity, enterprise-ai]
 toc: true
 description: "Microsoft's Copilot Wave 2 brings AI enhancements across their ecosystem, but are we moving at a pace that's cautious enough? Exploring the balance between AI innovation and responsible deployment."
 image:
-  path: /images/posts/copilot-ai-assistant.jpg
+  path: /images/posts/microsoft-copilot-workspace.jpg
   alt: "Microsoft Copilot Wave 2: Navigating the AI Frontier with Caution and Precision"
 ---
 
