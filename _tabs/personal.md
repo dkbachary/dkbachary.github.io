@@ -50,7 +50,7 @@ Growing up in Odisha, I learned that life's richest lessons often come from unex
 ---
 
 <div style="text-align: center; margin: 3rem 0;">
-  <a href="https://bhargavachary.in" target="_blank" rel="noopener noreferrer" onclick="window.open(this.href, '_blank'); return false;" class="btn-personal-space" style="display: inline-block; padding: 1rem 2.5rem; font-size: 1.1rem; font-weight: 600; color: #fff; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius: 25px; text-decoration: none; box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4); transition: all 0.3s ease; border: none;">Visit BhargavAchary.in</a>
+  <a href="https://bhargavachary.in" target="_blank" rel="noopener noreferrer" onclick="window.open(this.href, '_blank'); return false;" class="btn-personal-space" style="display: inline-block; padding: 1.2rem 3rem; font-size: 1.2rem; font-weight: 700; color: #fff; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius: 50px; text-decoration: none; box-shadow: 0 8px 20px rgba(102, 126, 234, 0.5); transition: all 0.3s ease; border: none; text-transform: uppercase; letter-spacing: 1px;">🚀 Launch Personal Hub</a>
 </div>
 
 ---
