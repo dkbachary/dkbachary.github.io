@@ -34,7 +34,7 @@ Here’s how you can create your own GitHub-hosted website using Jekyll:
 2. **Use GitHub Pages for Hosting:** Create a repository named `<username>.github.io`. GitHub automatically serves the site from this repository, no local setup needed.
 3. **Choose a Jekyll Template:** Browse [Jekyll Themes](https://jekyllthemes.io/) or [GitHub's Jekyll Collection](https://github.com/topics/jekyll-theme) for customizable themes.
 4. **Set Up Your Content:** Edit the `_config.yml` and Markdown files to customize your website. GitHub Pages builds and deploys automatically.
-5. **Custom Domain (Optional):** Purchase a domain, add a CNAME file, and update DNS records. [GitHub's guide](https://help.github.com/articles/setting-up-a-custom-domain-with-github-pages/) explains the process.
+5. **Custom Domain (Optional):** Purchase a domain, add a CNAME file, and update DNS records. [GitHub's guide](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site) explains the process.
 
 ## Personal Observations and Learning
 

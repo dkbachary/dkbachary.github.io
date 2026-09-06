@@ -11,7 +11,7 @@ image:
   alt: "The Apple Intelligence Saga: From Hype to Disappointment"
 ---
 
-In my recent blog, ["Apple Intelligence: The Seamless AI in Apple’s Ecosystem"](https://bhargavachary.in/2024/06/11/the-apple-intelligence-unveiled.html), I was brimming with optimism. Apple had unveiled its latest marvel, Apple Intelligence, and the potential for seamless integration, enhanced productivity, and smarter devices felt like a turning point. The promise of a future where AI wasn’t just an add-on but a cornerstone of the Apple ecosystem had me captivated.
+In my recent blog, ["Apple Intelligence: The Seamless AI in Apple’s Ecosystem"](/posts/the-apple-intelligence-unveiled/), I was brimming with optimism. Apple had unveiled its latest marvel, Apple Intelligence, and the potential for seamless integration, enhanced productivity, and smarter devices felt like a turning point. The promise of a future where AI wasn’t just an add-on but a cornerstone of the Apple ecosystem had me captivated.
 
 So much so that I made a leap of faith-a leap that, looking back, has left me questioning not only the technology but also my decisions as a tech enthusiast.
 

@@ -25,7 +25,7 @@ After a decade of debugging system bottlenecks and watching AI gradually seep fr
 
 Or had it?
 
-Few months later, the rose-tinted optimism had dulled. Siri hadn’t become any wiser, and the local LLMs felt more like college interns trying to impersonate a CEO. As I wrote in ["The Apple Intelligence Saga"](https://bhargavachary.in/2024/12/12/the-apple-intellgence-saga.html), the dream was real, but the execution struggled.
+Few months later, the rose-tinted optimism had dulled. Siri hadn’t become any wiser, and the local LLMs felt more like college interns trying to impersonate a CEO. As I wrote in ["The Apple Intelligence Saga"](/posts/the-apple-intellgence-saga/), the dream was real, but the execution struggled.
 
 And that’s what this blog unpacks: not just **how the edge is promising**, but also **why it’s still disappointing**.
 
