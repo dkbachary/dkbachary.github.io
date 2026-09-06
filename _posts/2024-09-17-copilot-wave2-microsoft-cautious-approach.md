@@ -13,7 +13,7 @@ image:
 
 With the rollout of **Copilot Wave 2**, Microsoft is expanding generative AI across its enterprise productivity stack: SharePoint, OneDrive, Excel, PowerPoint, Outlook, and Teams. While foundation model developers like OpenAI and Google frequently push rapid consumer-facing updates, Microsoft's enterprise strategy with Wave 2 is distinctly measured. Rather than introducing speculative interfaces, it focuses on embedding agents directly into existing corporate data stores and role-based access boundaries.
 
-The core question for engineers and IT teams is twofold: does this calculated rollout solve actual workplace productivity bottlenecks, and are enterprises prepared for the governance challenges of autonomous agents operating on internal data?
+The core question for engineers and IT teams is twofold: does this calculated rollout solve actual workplace productivity bottlenecks, and are enterprises prepared for the governance challenges of Copilot agents operating on internal data?
 
 ---
 
