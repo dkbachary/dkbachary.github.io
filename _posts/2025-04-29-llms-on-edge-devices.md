@@ -63,7 +63,7 @@ Modern SoCs like Apple M-series, Snapdragon X Elite, AMD Phoenix, and Intel Mete
 
 > *Pouring petrol through a straw won’t win a race.*
 
-Even Apple’s M3 Pro at 150+ GB/s pales in comparison to data center GPUs like NVIDIA H100 (3 TB/s). LLMs are bandwidth-hungry monsters.
+Even Apple’s M3 Pro at 150 GB/s pales in comparison to data center GPUs like NVIDIA H100 SXM5 (3.35 TB/s HBM3). LLMs are bandwidth-hungry monsters.
 
 ### Roofline Limits
 
@@ -83,7 +83,7 @@ Quantization is essential - but risky.
 |-----------|----------------|--------------|-----------|
 | **FP16**  | 50% of FP32     | Near-lossless | Ideal if supported |
 | **INT8**  | 25% of FP32     | Mild drop     | Needs calibration |
-| **INT4**  | ~12.5%          | Noticeable loss | Use GPTQ or QLoRA |
+| **INT4**  | ~12.5%          | Noticeable loss | Use GPTQ, AWQ, or GGUF (or QLoRA for fine-tuning) |
 | **INT3**  | ~9%             | High risk     | Often “robotic” responses |
 
 > *From FLAC to MP3 to ringtone - there’s a breaking point.*
@@ -118,6 +118,8 @@ A great idea (runs on all GPUs) but not yet optimized for LLMs. Coverage for com
 | Intel Meteor Lake       | ~10-30 (DirectML, est.)    |
 | AMD Phoenix             | ~20 (FP16, ONNX)           |
 | Snapdragon X Elite      | TBD (claimed 13B support)  |
+
+*Note: These figures represent illustrative community and empirical ranges across different software runtimes and TDP targets rather than a single controlled cross-platform benchmark.*
 
 Apple leads due to software-hardware synergy. Others have potential, but runtime gaps hold them back.
 

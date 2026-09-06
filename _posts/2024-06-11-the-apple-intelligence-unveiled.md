@@ -41,7 +41,7 @@ Additionally, the inclusion of ChatGPT within Apple's ecosystem exemplifies how 
 
 ### Additional Insights from WWDC 2024
 
-One crucial aspect that was highlighted in the WWDC 2024 keynote was the introduction of AI-enhanced personal health tracking features. These new capabilities allow for more accurate monitoring of health metrics through advanced algorithms integrated into Apple Health. Furthermore, Apple has introduced a new collaborative workspace feature in macOS 15, enabling real-time collaboration across devices with AI-driven task management and scheduling.
+One crucial aspect that was highlighted in the WWDC 2024 keynote was the expansion of on-device intelligence across personal health metrics and daily workflows. Furthermore, Apple highlighted enhanced collaborative features across macOS 15 (Sequoia) and iOS 18, including Freeform improvements and iPhone Mirroring, supporting fluid cross-device workflows.
 
 Lastly, the significant improvements in Siri's natural language processing and understanding capabilities were showcased, allowing for more intuitive and human-like interactions. This includes better contextual awareness and the ability to handle multi-turn conversations seamlessly.
 
