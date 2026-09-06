@@ -110,7 +110,7 @@ Fusion isn’t a one-brand story. There’s a growing ecosystem of collaborators
 
 AMD  
 - In talks with NVIDIA to standardize x86 coherency protocols.  
-- Possibility of cross-vendor CPU–GPU shared memory? Yes, please.
+- Possibility of cross-vendor CPU-GPU shared memory? Yes, please.
 
 Qualcomm & MediaTek  
 - Exploring Fusion-inspired architectures for phones and IoT.  
@@ -164,10 +164,10 @@ It’s not about faster chips. It’s about smarter systems.
 
 ## References
 
-1. NVIDIA Computex 2025 Keynote – Jensen Huang  
-2. NVIDIA GB200 Grace Blackwell Architecture Whitepaper  
-3. NVLink Protocol v4 Spec – NVIDIA Developer Zone  
-4. Apple UMA Benchmarks – AnandTech  
+1. NVIDIA Computex 2025 Keynote - Jensen Huang
+2. NVIDIA GB200 Grace Blackwell Architecture Whitepaper
+3. NVLink Protocol v4 Spec - NVIDIA Developer Zone
+4. Apple UMA Benchmarks - AnandTech
 5. AMD Infinity Fabric Blog  
 6. UCIe Consortium Updates  
 7. Qualcomm AI Edge Roadmap  

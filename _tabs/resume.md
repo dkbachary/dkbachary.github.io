@@ -188,9 +188,8 @@ title: Resume
 
 ## Additional Information
 
-**Location:** Bren Unity, Doddanekundi, Bengaluru, Karnataka, India - 560037  
-**Phone:** (+91) 9178320962 / 7578008767  
-**Visa Status:** Open to visa sponsorship and relocation opportunities, preferably in the Netherlands, Ireland, or other EU regions  
+**Location:** Bengaluru, Karnataka, India<br>
+**Visa Status:** Open to visa sponsorship and relocation opportunities, preferably in the Netherlands, Ireland, or other EU regions
 
 **Social Interests:**
 - **Sports & Adventure:** Badminton, Cycling, Travelling, Trekking

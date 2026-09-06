@@ -27,11 +27,26 @@ tools/
 
 ## Key Rules
 - Posts: `_posts/YYYY-MM-DD-title.md` with Chirpy front matter (`title`, `date`, `categories`, `tags`, `author`)
-- Drafts go in `_drafts/` — not published until moved to `_posts/`
+- Drafts go in `_drafts/` - not published until moved to `_posts/`
 - Do not change `url: "https://dkbachary.github.io"` in `_config.yml`
-- Chirpy has strict front matter requirements — check existing posts before creating new ones
-- Do not commit a macOS-generated `Gemfile.lock` — Ruby version mismatch will break CI (CI uses Ruby 3.3)
-- Public technical blog — keep content accurate and professional
+- Chirpy has strict front matter requirements - check existing posts before creating new ones
+- Do not commit a macOS-generated `Gemfile.lock` - Ruby version mismatch will break CI (CI uses Ruby 3.3)
+- Public technical blog - keep content accurate and professional
+
+## Bhargav Prose Typography
+- Sentence dashes: Use spaced ASCII hyphens (` - `) rather than em-dashes (`—`) or en-dashes (`–`).
+- Numeric ranges & technical compounds: Use ASCII hyphens (`-`) without spaces (e.g., `20-40`, `CPU-GPU`).
+- Ellipses: Use three ASCII periods (`...`) rather than unicode ellipsis characters (`…`).
+- Header & list styling: Avoid decorative emojis in section headings (e.g., `🍏`, `⚙️`, `🔥`, `❄️`, `🧠`, `📣`) and bullet lists (e.g., `✅`). Keep structure clean, technical, and professional.
+- Privacy baseline: Never commit precise residential street/apartment addresses or personal phone numbers. Keep public location broad (e.g., Bengaluru, Karnataka, India).
+
+## Git Safety
+- Never run destructive git commands: avoid `git checkout .`, `git reset --hard`, and `git clean -fd`.
+- Explicit staging only: Stage files explicitly by path (`git add <path>`). Never use `git add .` or `git add -A`.
+- Diff hygiene: Always run `git diff --check` to ensure no whitespace errors, unresolved conflict markers, or unintended modifications.
+- Local verification: Verify the build with `bash tools/test.sh` before committing and pushing.
+- Commit scope: Keep commits atomic, well-documented, and scoped to specific cleanup or feature goals.
+
 
 ## Local Dev
 ```bash

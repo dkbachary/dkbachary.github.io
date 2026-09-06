@@ -35,22 +35,22 @@ And that’s what this blog unpacks: not just **how the edge is promising**, but
 
 Modern SoCs like Apple M-series, Snapdragon X Elite, AMD Phoenix, and Intel Meteor Lake are marvels: tightly integrated, multi-core, and packed with AI accelerators. But power doesn’t always mean practicality.
 
-### 🍏 Apple M-Series
+### Apple M-Series
 
 - **Strengths:** Unified memory, FP16 native, fast Metal backends  
 - **Weaknesses:** Potential thermal throttling, inconsistent runtime support
 
-### ⚙️ Snapdragon X Elite
+### Snapdragon X Elite
 
 - **Strengths:** Promising dual NPU, ARM efficiency  
 - **Weaknesses:** No real-world LLM benchmarks, unknown sustained throughput
 
-### 🔥 AMD Phoenix / Strix
+### AMD Phoenix / Strix
 
 - **Strengths:** Good iGPU (RDNA3), XDNA NPU starting to emerge  
 - **Weaknesses:** Software stack still catching up, limited kernel coverage
 
-### ❄️ Intel Meteor Lake
+### Intel Meteor Lake
 
 - **Strengths:** First serious NPU in Intel PC chips, Arc GPU supports FP16  
 - **Weaknesses:** Power-constrained, runtime immaturity
@@ -59,17 +59,17 @@ Modern SoCs like Apple M-series, Snapdragon X Elite, AMD Phoenix, and Intel Mete
 
 ## **3. Why So Much Power Still Feels So Weak**
 
-### 🧠 Memory Bandwidth Bottleneck
+### Memory Bandwidth Bottleneck
 
 > *Pouring petrol through a straw won’t win a race.*
 
 Even Apple’s M3 Pro at 150+ GB/s pales in comparison to data center GPUs like NVIDIA H100 (3 TB/s). LLMs are bandwidth-hungry monsters.
 
-### ⚙️ Roofline Limits
+### Roofline Limits
 
 Low arithmetic intensity in LLM layers means even 100 TOPS NPUs can sit idle - starving for data.
 
-### 🔥 Thermal Throttling
+### Thermal Throttling
 
 Edge devices are built for bursts, not endurance. Sustained inference on a thin MacBook? Your tokens/sec graph will look like Bangalore traffic on a Monday morning.
 
@@ -114,8 +114,8 @@ A great idea (runs on all GPUs) but not yet optimized for LLMs. Coverage for com
 
 | **Platform**            | **Tokens/sec (7B Q4/Q6)** |
 |-------------------------|----------------------------|
-| Apple M2                | 20–40 (`llama.cpp`)        |
-| Intel Meteor Lake       | ~10–30 (DirectML, est.)    |
+| Apple M2                | 20-40 (`llama.cpp`)        |
+| Intel Meteor Lake       | ~10-30 (DirectML, est.)    |
 | AMD Phoenix             | ~20 (FP16, ONNX)           |
 | Snapdragon X Elite      | TBD (claimed 13B support)  |
 
@@ -152,10 +152,10 @@ Even Apple hit the **glass ceiling**: limited RAM, thermal budget, and immature 
 
 We need:
 
-- ✅ Higher memory bandwidth (>150 GB/s)  
-- ✅ Better runtime kernels (FlashAttention, fused MLPs)  
-- ✅ Smaller, smarter models (MoE, distillation, QLoRA)  
-- ✅ Realistic expectations
+- Higher memory bandwidth (>150 GB/s)
+- Better runtime kernels (FlashAttention, fused MLPs)
+- Smaller, smarter models (MoE, distillation, QLoRA)
+- Realistic expectations
 
 Let’s stop calling 7B INT4 a “GPT-4 competitor.” It’s not. Not yet.
 
@@ -163,7 +163,7 @@ Let’s stop calling 7B INT4 a “GPT-4 competitor.” It’s not. Not yet.
 
 ## **10. Parting Thoughts: Bengaluru’s AI Moment**
 
-Edge AI feels a lot like Bengaluru’s road network: intelligent intentions, brilliant engineers, and… bottlenecks at every corner.
+Edge AI feels a lot like Bengaluru’s road network: intelligent intentions, brilliant engineers, and... bottlenecks at every corner.
 
 We’ve got great engines - M3 Max, X Elite, Phoenix - but our road (runtime maturity, bandwidth, quantization quality) is full of potholes.
 
@@ -177,7 +177,7 @@ While we just focused on LLMs for this article, we need to appreciate the fact t
 
 ---
 
-## **📣 Your Turn: Share Your Edge-AI Story**
+## **Your Turn: Share Your Edge-AI Story**
 
 Have you tried running LLMs on your Mac, PC, or ARM laptop?
 
