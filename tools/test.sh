@@ -56,9 +56,9 @@ main() {
 
   # Ensure we don't use stale vendor gems from an incompatible architecture or Ruby
   if [[ -d vendor/bundle ]]; then
-    # If on Apple Silicon but vendor contains x86_64 prebuilt gems, purge
-    if [[ "$(uname -m)" == "arm64" ]] && grep -q "x86_64-darwin" -r vendor/bundle 2>/dev/null; then
-      echo "> Detected x86_64 prebuilt gems on arm64; removing vendor/bundle to avoid ffi/sassc errors"
+    # If on Apple Silicon but vendor contains x86_64 prebuilt native extensions, purge
+    if [[ "$(uname -m)" == "arm64" ]] && ls -d vendor/bundle/ruby/*/extensions/x86_64-darwin* >/dev/null 2>&1; then
+      echo "> Detected x86_64 native extensions on arm64; removing vendor/bundle"
       rm -rf vendor/bundle
     fi
     # If vendor folder Ruby ABI doesn't match current Ruby major.minor, purge
@@ -73,7 +73,8 @@ main() {
 
   # Ensure dependencies are installed
   bundle config set path 'vendor/bundle' >/dev/null
-  bundle install --without development test --jobs 4 --retry 2
+  bundle config set without 'development test' >/dev/null
+  bundle install --jobs 4 --retry 2
 
   read_baseurl
 
