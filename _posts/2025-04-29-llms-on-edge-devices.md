@@ -183,8 +183,4 @@ While we just focused on LLMs for this article, we need to appreciate the fact t
 
 Have you tried running LLMs on your Mac, PC, or ARM laptop?
 
-Drop your comments, exeriences, benchmarks, pain points, or clever hacks in the comments or tag [@bhargavachary](https://bhargavachary.in) - let’s build this road together.
-
----
-
-**#EdgeAI #LocalLLM #MSeries #AMD #Intel #SnapdragonXElite #Quantization #llamacpp #Inference #SystemEngineering #MachineLearning**
+Drop your comments, experiences, benchmarks, pain points, or clever hacks in the comments or tag [@bhargavachary](https://bhargavachary.in) - let’s build this road together.
