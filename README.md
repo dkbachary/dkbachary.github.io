@@ -1,43 +1,135 @@
-# Chirpy Starter
+# dkbachary.github.io — Technical Engineering Publication
 
-[![Gem Version](https://img.shields.io/gem/v/jekyll-theme-chirpy)][gem]&nbsp;
-[![GitHub license](https://img.shields.io/github/license/cotes2020/chirpy-starter.svg?color=blue)][mit]
+Production: [https://dkbachary.github.io/](https://dkbachary.github.io/)  
+Default Branch: `main`
 
-When installing the [**Chirpy**][chirpy] theme through [RubyGems.org][gem], Jekyll can only read files in the folders
-`_data`, `_layouts`, `_includes`, `_sass` and `assets`, as well as a small part of options of the `_config.yml` file
-from the theme's gem. If you have ever installed this theme gem, you can use the command
-`bundle info --path jekyll-theme-chirpy` to locate these files.
+The technical engineering publication, research archive, and systems performance notebook of **D K Bhargav Achary**. 
 
-The Jekyll team claims that this is to leave the ball in the user’s court, but this also results in users not being
-able to enjoy the out-of-the-box experience when using feature-rich themes.
+This site serves as the high-signal, technical counterpart to [BhargavAchary.in](https://bhargavachary.in/) (personal & creator portfolio), focusing on computer architecture, hardware/software co-design, performance modeling, and AI systems.
 
-To fully use all the features of **Chirpy**, you need to copy the other critical files from the theme's gem to your
-Jekyll site. The following is a list of targets:
+---
 
-```shell
-.
-├── _config.yml
-├── _plugins
-├── _tabs
-└── index.html
+## Technical Pillars
+
+- **Computer Architecture & Microarchitecture**: Core designs, cache hierarchies, execution pipelines, and ISA developments (x86, ARM, RISC-V, DSP).
+- **Systems Performance & Modeling**: Performance monitoring counters (PMC/PMU), roofline modeling, simulation correlation, and workload characterization.
+- **Hardware/Software Co-Design & Edge AI**: On-device LLM/DNN inference constraints, memory bandwidth bottlenecks, quantization dynamics (FP16/INT8/INT4), and runtime engines (Core ML, MLX, llama.cpp, ONNX).
+- **Interconnects & Memory Systems**: Unified memory architectures, cache coherence, NVLink, CXL, and high-performance fabric behavior.
+- **Hardware Security**: Performance counter side-channel attacks and microarchitectural security analysis.
+- **Engineering Workflows & Reliability**: System-level resilience, deployment strategies (canary, isolation), and development environments.
+
+---
+
+## Technical Stack & Architecture
+
+- **Engine**: Jekyll 4.4+
+- **Theme**: [jekyll-theme-chirpy](https://github.com/cotes2020/jekyll-theme-chirpy) (`~> 6.2`)
+- **Runtime**: Ruby 3.3
+- **Hosting**: GitHub Pages
+- **Continuous Integration & Deployment**: GitHub Actions (`.github/workflows/pages-deploy.yml`)
+- **PWA & Search**: Built-in Progressive Web App offline caching and client-side index search
+
+---
+
+## Repository Structure
+
+```text
+├── .github/
+│   ├── workflows/pages-deploy.yml  # Production CI/CD workflow
+│   └── copilot-instructions.md     # AI assistant operational context
+├── _config.yml                     # Jekyll and theme site configuration
+├── _data/                          # Data files (contact, social links, share)
+├── _drafts/                        # Unpublished draft posts and templates
+├── _includes/                      # Theme partial overrides & discovery hooks
+├── _layouts/                       # Layout overrides (default, post, personal)
+├── _plugins/                       # Jekyll plugins (posts-lastmod-hook.rb)
+├── _posts/                         # Published technical articles (YYYY-MM-DD-title.md)
+├── _tabs/                          # Navigation tabs (About, Resume, Categories, Tags, Archives, Personal)
+├── assets/                         # Static assets (CSS, JS, Resume PDF, Avatar)
+├── images/posts/                   # Article hero and inline diagram images
+├── tools/                          # Local execution and build scripts (run.sh, test.sh)
+└── Gemfile                         # Bundler configuration (Gemfile.lock is gitignored)
 ```
 
-To save you time, and also in case you lose some files while copying, we extract those files/configurations of the
-latest version of the **Chirpy** theme and the [CD][CD] workflow to here, so that you can start writing in minutes.
+---
 
-## Usage
+## Content Model & Front Matter
 
-Check out the [theme's docs](https://github.com/cotes2020/jekyll-theme-chirpy/wiki).
+Posts are written in standard Markdown and placed in `_posts/YYYY-MM-DD-title.md`. Each post requires Chirpy-compliant front matter:
 
-## Contributing
+```yaml
+---
+layout: post
+title: "Article Title Here"
+date: YYYY-MM-DD HH:MM:SS +0530
+categories: [Primary Pillar, Subtopic]
+tags: [tag1, tag2, tag3]
+toc: true
+description: "Precise, source-backed abstract for SEO and preview cards (150-160 characters)."
+image:
+  path: /images/posts/your-image.jpg
+  alt: "Descriptive alt text for image"
+---
+```
 
-This repository is automatically updated with new releases from the theme repository. If you encounter any issues or want to contribute to its improvement, please visit the [theme repository][chirpy] to provide feedback.
+### Publishing Workflow
+1. Draft new technical posts in `_drafts/` using `_drafts/post-template.md`.
+2. Verify all quantitative claims against vendor whitepapers, architecture manuals, or empirical benchmarks.
+3. Use relative permalinks for internal cross-references (`/posts/:title/`).
+4. Move verified drafts into `_posts/` with the publication date in the filename and front matter.
+
+---
+
+## Local Development & Validation
+
+### Prerequisites
+- Ruby 3.3+
+- Bundler (`gem install bundler`)
+
+### Setup & Installation
+Dependencies are configured locally in `vendor/bundle` to avoid polluting the global Ruby environment:
+
+```bash
+bundle config set path 'vendor/bundle'
+bundle config set without 'development test'
+bundle install
+```
+
+> **Note:** Never commit a locally generated `Gemfile.lock`. GitHub Actions uses an Ubuntu runner with dynamic dependency resolution. `Gemfile.lock` is intentionally tracked in `.gitignore`.
+
+### Running Local Server
+```bash
+bash tools/run.sh
+```
+Access the local preview at `http://127.0.0.1:4000/`.
+
+### Running Test Build
+```bash
+bash tools/test.sh
+```
+This runs a clean production-mode Jekyll build (`JEKYLL_ENV=production`) ensuring templates, assets, and permalinks compile with zero errors.
+
+---
+
+## Deployment Pipeline
+
+Deployment is 100% automated:
+1. Every commit pushed to `main` triggers the **Build and Deploy** workflow (`.github/workflows/pages-deploy.yml`).
+2. GitHub Actions sets up Ruby 3.3, installs gems with caching enabled, compiles the site in production mode, and uploads the artifact.
+3. The official GitHub Pages deployment action deploys the site to production.
+4. The live site is served with HTTPS and HTTP/2 at [https://dkbachary.github.io/](https://dkbachary.github.io/).
+
+---
+
+## Complementary Sites & Boundaries
+
+| Site | Role | Primary Content |
+|---|---|---|
+| **[dkbachary.github.io](https://dkbachary.github.io/)** | Technical Engineering Publication | Systems architecture, performance modeling, hardware experiments, accelerators, engineering notes |
+| **[bhargavachary.in](https://bhargavachary.in/)** | Personal & Creative Portfolio | Essays, cultural narratives, photography, life observations, personal projects |
+
+---
 
 ## License
 
-This work is published under [MIT][mit] License.
-
-[gem]: https://rubygems.org/gems/jekyll-theme-chirpy
-[chirpy]: https://github.com/cotes2020/jekyll-theme-chirpy/
-[CD]: https://en.wikipedia.org/wiki/Continuous_deployment
-[mit]: https://github.com/cotes2020/chirpy-starter/blob/master/LICENSE
+Content & articles © D K Bhargav Achary. Code and theme components are published under the [MIT License](LICENSE).
